@@ -1,3 +1,5 @@
+
+
 services:
   - type: web
     name: crypto-bot1
@@ -7,6 +9,4 @@ services:
     pythonVersion: 3.10.13
     buildCommand: ""
     startCommand: gunicorn main:app
-
-
 
